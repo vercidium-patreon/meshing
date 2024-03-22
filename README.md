@@ -1,4 +1,4 @@
-> This repository is part of Vercidium's [Freeby Friday](https://www.youtube.com/watch?v=40JzyaOYJeY) series.
+> This repository is part of Vercidium's [Free Friday](https://www.youtube.com/watch?v=40JzyaOYJeY) series.
 
 This is a standlone voxel renderer that uses greedy meshing to generate a simplified mesh of a voxel world.
 
