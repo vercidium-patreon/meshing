@@ -11,6 +11,7 @@ public unsafe partial class Client
         var options = WindowOptions.Default;
         options.API = new GraphicsAPI(ContextAPI.OpenGL, new APIVersion(3, 3));
         options.Position = new(200, 200);
+        options.PreferredDepthBufferBits = 32;
 
         window = Window.Create(options);
 
