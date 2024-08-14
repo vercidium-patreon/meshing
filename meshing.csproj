@@ -1,15 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
-		<TargetFramework>net7.0-windows</TargetFramework>
+		<TargetFramework>net8.0-windows8.0</TargetFramework>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<SupportedOSPlatformVersion>8.0</SupportedOSPlatformVersion>
 	</PropertyGroup>
 
 	<!-- NuGet packages -->
 	<ItemGroup>
-		<PackageReference Include="Silk.NET.Core" Version="2.19.0" />
-		<PackageReference Include="Silk.NET.Input" Version="2.19.0" />
-		<PackageReference Include="Silk.NET.OpenGL" Version="2.19.0" />
-		<PackageReference Include="Silk.NET.Windowing" Version="2.19.0" />
+		<PackageReference Include="Silk.NET.Core" Version="2.21.0" />
+		<PackageReference Include="Silk.NET.Input" Version="2.21.0" />
+		<PackageReference Include="Silk.NET.OpenGL" Version="2.21.0" />
+		<PackageReference Include="Silk.NET.Windowing" Version="2.21.0" />
 	</ItemGroup>
 </Project>
